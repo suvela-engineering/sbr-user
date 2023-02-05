@@ -5,9 +5,9 @@ var router = express.Router();
 let ctrl = require('../controllers/userController');
 
 router.route('/api/users').
-    get(ctrl.fetchUsers).
-    // post(ctrl.insertUser);
-
+    get(ctrl.fetchUsers)
+    // post(ctrl.insertUser).
+    ;
 //router.route('/api/studenttype').
  //   get(ctrl.fetchStudents);
 

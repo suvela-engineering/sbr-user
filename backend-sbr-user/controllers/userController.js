@@ -2,7 +2,7 @@ const sql = require('../db/userQueries.js');
 
 module.exports = {
     fetchUsers: async (req, res) => {
-        let sFetchUsers = this.fetchUsers.name;
+        let sFetchUsers = "fetchUsers";
         console.log(sFetchUsers +" , started ...");
         try {
             let u = await sql.getUsers();
