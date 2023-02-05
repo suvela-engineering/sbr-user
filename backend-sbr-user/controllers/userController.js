@@ -6,7 +6,7 @@ module.exports = {
         console.log(sFetchUsers +" , started ...");
         try {
             let u = await sql.getUsers();
-            res.json({ status: "OK", users : u });
+            res.json({ status: "OK", users : u.rows });
             console.log(sFetchUsers +" , done");
         } catch (error) {
             console.log(sFetchUsers +" , Error in server");
