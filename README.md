@@ -1,2 +1,2 @@
 # sbr-user
-user interface of sbr. Frontend Angular, backend nodejs, db Postgres
+user interface of sbr. Frontend ?, backend nodejs express, db Postgres
