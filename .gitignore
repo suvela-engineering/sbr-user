@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Local settings 5.2.23
+backend-sbr-user/pool.env
