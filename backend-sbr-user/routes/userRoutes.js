@@ -5,11 +5,10 @@ var router = express.Router();
 let ctrl = require('../controllers/userController');
 
 router.route('/api/users').
-    get(ctrl.fetchUsers)
-    // post(ctrl.insertUser).
-    ;
-//router.route('/api/studenttype').
- //   get(ctrl.fetchStudents);
+    get(ctrl.fetchUsers);
+
+router.route('/api/user/:userId').
+    get(ctrl.fetchUserById);
 
 // Julkaistaan ao. funktiot tämän js-filun ulkopuolelle
 module.exports = router;
